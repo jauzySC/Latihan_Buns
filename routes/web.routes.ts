@@ -10,7 +10,6 @@ web.get('/schools', schoolsController.getListData)
 web.get('school/:id', schoolsController.getDetailData)
 web.get('/classes', classesController.getListData)
 web.get('/classes/:id', classesController.getDetailData)
-web.get('/classes/:id', classesController.getDetailData)
 
 
 export default web
